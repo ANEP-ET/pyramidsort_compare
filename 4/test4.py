@@ -99,7 +99,7 @@ file2 = open("m.dat","w")
 file3 = open("q.dat","w")
 file4 = open("b.dat","w")
 
-for i in range (1, 1500):
+for i in range (1, 100):
     a.append(random.random() * 1500)
     tic = time.process_time()
     pyramidize_min(a)
