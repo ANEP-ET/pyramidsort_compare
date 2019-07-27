@@ -91,8 +91,6 @@ def status(p):
         for i in range(h0, 2, -1):
             max = find_max(p, i)
             min = find_min(p, i - 1)
-            print(max)
-            print(min)
             if max <= min and ((s == 0 and i == h0) or s == 1):
                 s = 1
             elif max >= min and ((s == 0 and i == h0) or s == 2):
